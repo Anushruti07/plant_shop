@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+}
+.head{
+    background:#fff url('mask.png');
+    padding:0;
+    width:100%;
+    height:600px;
+}
+.head1{
+    background:rgb(165, 191, 155,70%);
+    padding:10px;
+    text-align:center;
+    color:#fff;
+}
+.head1 ul{
+    list-style:none;
+    margin:0;
+}
+.head1 ul li{
+    float:left;
+}
+.head1 ul li a:visited,.head1 ul li a:link{
+    color:#014B40;
+    text-decoration:none;
+    padding:10px;
+}
+
+.head2{
+    background:transparent;
+    padding:50px;
+    text-align:left;
+    color:#fff;
+    font-family:open sans;
+    line-height:50px;
+}
+.head2 p{
+    padding:0;
+    margin:0;
+}
+.darea{
+    background:#fff;
+    padding:100px 0px 50px 0;
+    text-align:center;
+}
+.box1{
+    background:#fff;
+    padding:50px 20px;
+}
+.searchbar{
+    background:#fff;
+    padding:50px 0;
+}
+.searchbar img{
+    width:100%;
+}
+.arrival{
+    background:#fff;
+    padding:50px 0;
+    text-align:center;
+}
+.box2{
+    background:#fff;
+    padding:50px 20px;
+}
+.box2 img{
+    border-radius:30px;
+}
+.stand{
+    background:#fff;
+    padding:50px 0;
+    text-align:center;
+}
+.box3{
+    background:#fff;
+    padding:50px 0;
+}
+.box3 img{
+    border-radius:30px;
+}
+.service{
+    background:#fff;
+    padding:50px 0;
+    text-align:center;
+}
+.footerarea{
+    background:#fff;
+    padding:50px 0;
+}
+.footerarea img{
+    width:100%;
+}
+
