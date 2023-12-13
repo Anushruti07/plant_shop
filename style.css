@@ -1,3 +1,6 @@
+*{
+    font-family:poppins;
+}
 body{
     margin:0;
     padding:0;
@@ -10,7 +13,7 @@ body{
 }
 .head1{
     background:rgb(165, 191, 155,70%);
-    padding:10px;
+    padding:20px 0;
     text-align:center;
     color:#fff;
 }
@@ -42,23 +45,26 @@ body{
 .darea{
     background:#fff;
     padding:100px 0px 50px 0;
-    text-align:center;
+    text-align:left;
+}
+.darea h5{
+    text-align: right;
 }
 .box1{
     background:#fff;
     padding:50px 20px;
 }
 .searchbar{
-    background:#fff;
+    background:#014B40;
     padding:50px 0;
-}
-.searchbar img{
-    width:100%;
 }
 .arrival{
     background:#fff;
-    padding:50px 0;
-    text-align:center;
+    padding:50px 0 0 0;
+    text-align:left;
+}
+.arrival h5{
+    text-align: right;
 }
 .box2{
     background:#fff;
@@ -70,7 +76,7 @@ body{
 .stand{
     background:#fff;
     padding:50px 0;
-    text-align:center;
+    text-align:left;
 }
 .box3{
     background:#fff;
@@ -81,14 +87,42 @@ body{
 }
 .service{
     background:#fff;
-    padding:50px 0;
+    padding:50px 0 100px 0;
     text-align:center;
 }
 .footerarea{
-    background:#fff;
-    padding:50px 0;
+    background:#014B40;
+    padding:50px 150px 0px 150px;
+    color:#fff;
+    text-align:center;
 }
-.footerarea img{
-    width:100%;
+.footerarea1{
+    background:#014B40;
+    padding:0;
+    text-align: left;
+}
+.footerarea ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.footerarea ul li a:link,.footerarea ul li a:visited{
+    color:white;
+}
+.contact ul li{
+    color:#fff;
+}
+.footerarea2{
+    background:#014B40;
+    padding:50px 0px;
+    text-align:center;
+}
+.footerarea22{
+    background:rgb(255, 255, 255,10%);
+    padding:20px 0 10px 10px;
+    text-align:right;
+}
+.footerarea22 p{
+    text-align:left;
 }
 
